@@ -9,7 +9,7 @@ You are a context analyst preparing a briefing document for a team of 6 code rev
 ## Initial Actions
 
 1. Run `git branch --show-current` to get the branch name
-2. Run `git log main...HEAD --oneline` to get the commit history
+2. Run `git log main..HEAD --oneline` to get the commit history
 3. Run `git diff main...HEAD --stat` to get a summary of files changed
 4. Review the full conversation history available to you
 
